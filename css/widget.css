@@ -1,3 +1,22 @@
-.waf-widget.waf-spreadsheet {
-	background-color:red;
+.waf-widget.waf-simplespreadsheet {
+	background-color:gray;
 }
+
+.waf-simplespreadsheet>div {
+  position:absolute; 
+  top:0;
+  left:0;
+  right:0; 
+  height:95%;
+
+} 
+
+.waf-simplespreadsheet>button {
+  position:absolute;
+  top:95%; 
+  bottom:0px;
+  left:67%;
+  width:33%;
+  height:5%;
+
+} 
