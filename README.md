@@ -30,14 +30,17 @@ __IMPORTANT__ to avoid conflicts with the Studio, we added the following : "runt
 
 Model
 ```
-1. Create a datasource with two string attribute 
+1. Create a datasource  D
+2. Add attribute string S1
+3. Add atribute string  S2
+4. save your model. 
 
 ```
 
 Wakanda Widgets (optional)
 ```
-1. Drag a grid and add the created datasource on it 
-(for reasons of jquery compatibility, just leave the first string attribute in the grid)
+1. Drag a grid and add the datasource D on it 
+(for reasons of jquery compatibility, just leave the first string attribute S1 in the grid)
 
 ```
 
@@ -47,9 +50,11 @@ Custom Widget
 1. Drag the widget to your Wakanda page. 
 2. A gray box should be available with a save button 
 	(The SpreadSheet will not be available in the Studio)
-3. Drop the second datasource string attribute inside the widget or change the property's panel Datasource value
-4. Add some values and click button save 
-5. Close and open your page, click the Load button, values are restored. 
+3. Drop the second datasource string attribute S2 inside the widget or change the property's panel Datasource value
+4. save your page
+5. run your page 
+6. Add some values and click button save 
+7. Close and open your page, click the Load button, values are restored. 
 ```
 
 ### CSS
