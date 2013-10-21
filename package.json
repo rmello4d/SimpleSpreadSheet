@@ -1,0 +1,28 @@
+{
+    "name": "SimpleSpreadSheet",
+    "author": "Widget Developer",
+	"contributors": [
+	    "Ricardo Mello", 
+	    "Developer 2"
+	],
+    "version": "1.0.0",
+    "copyright": "(c) 2013 Widget Developer",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/developer/Widget.git"
+	},
+	"keywords": ["wakanda", "widget"],
+	"engines": {"wakanda" : ">= 6"},
+	"license": "MIT", 
+    "loadDependencies": [
+    	{"id": "Widget_V2"},
+    	{"id": "SimpleSpreadSheet/jsLibs/jquery-1.9.1.min.js", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+    	{"id": "SimpleSpreadSheet/jsLibs/jquery-ui.min.js", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+    	{"id": "SimpleSpreadSheet/jsLibs/jquery-wijmo.css", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+    	{"id": "SimpleSpreadSheet/jsLibs/jquery.wijmo.wijspread.all.1.20132.5.min.js", "runtimeOnly": true,  "path": "WIDGETS_CUSTOM"},
+    	{"id": "SimpleSpreadSheet/jsLibs/jquery.wijmo.wijspread.1.20132.5.css", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},  	   	
+        {"id": "SimpleSpreadSheet/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "SimpleSpreadSheet/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "SimpleSpreadSheet/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
