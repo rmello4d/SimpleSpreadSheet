@@ -39,7 +39,7 @@ Model
 
 Wakanda Widgets (optional)
 ```
-1. Drag a grid and add the datasource D on it 
+1. Drag a wakanda grid to your page and add the datasource D on it 
 (for reasons of jquery compatibility, just leave the first string attribute S1 in the grid)
 
 ```
