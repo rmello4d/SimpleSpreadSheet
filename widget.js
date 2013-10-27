@@ -16,7 +16,7 @@
 
             // save the spread object
             this.spread = spreadnode.wijspread('spread'); 
-            this.spread.addSheet(0);
+            //this.spread.addSheet(0);
 
             //click on save button 
             $('>button', this.node).on ('click', function () {	    	   	
@@ -25,7 +25,7 @@
                 this.fire(new Event.Save());
             }.bind(this)); 
         }
-	}
+	};
 		
 	// adding a property automatically makes the property bindable
     SimpleSpreadSheet.addProperty('value', {
