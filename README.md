@@ -5,11 +5,12 @@ The __SimpleSpreadShehet__ widget is an example using the Wijmo widgets. Please 
 ### Properties
 This __SimpleSpreadShehet__ widget has the following properties: 
 
-* __value__: The datasource for the widget
-* __content__: The data attribute binding where the contente of the spreadSheet will be save to 
+* __value__: The string attribute binding  the content of the spreadSheet 
+
 
 ### Goals
-The __SimpleSpreadShehet__ simulates an Excel spread sheet inside a Wakanda page. The user can then load or save the content of the spread sheet. 
+The __SimpleSpreadShehet__ simulates an Excel spread sheet inside a Wakanda page. 
+The user can then load or save the content of the spread sheet. 
 
 
 ### package.json
@@ -29,17 +30,29 @@ __IMPORTANT__ to avoid conflicts with the Studio, we added the following : "runt
 
 Model
 ```
-1. Create a datasource with a blob attribute
+1. Create a datasource  D
+2. Add attribute string S1
+3. Add atribute string  S2
+4. save your model. 
+
 ```
 
-Widget
+Wakanda Widgets (optional)
+```
+1. Drag a wakanda grid to your page and add the datasource D on it 
+(for reasons of jquery compatibility, just leave the first string attribute S1 in the grid)
+
+```
+
+
+Custom Widget
 ```
 1. Drag the widget to your Wakanda page. 
-2. A gray box should be available with 2 buttons : save and restore 
+2. A gray box should be available with a save button 
 	(The SpreadSheet will not be available in the Studio)
-3. Drop a datasource inside the widget or change the property's panel Datasource value
-4. Add content attribute (it should be a blob attribute) to property's panel
-5. Run the page and click on the load button,
+3. Drop the second datasource string attribute S2 inside the widget or change the property's panel Datasource value
+4. save your page
+5. run your page 
 6. Add some values and click button save 
 7. Close and open your page, click the Load button, values are restored. 
 ```
